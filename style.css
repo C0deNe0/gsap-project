@@ -1,0 +1,252 @@
+@font-face{
+    font-family: japan;
+    src: url(./3856NeueMachina.woff);
+}
+
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+     
+}
+
+body{
+    overflow-x: hidden;
+    /* overflow-y: hidden; */
+}
+section{
+   height: 100%;
+   width: 100%;
+   position: relative;
+   margin-bottom: 300px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 160px;
+}
+
+
+nav h1{
+    font-size: 85px;
+    font-weight: 600;
+    
+}
+nav h1 i{
+    display: inline-block;
+    rotate: 45deg ;
+    /* background-color: black; */
+    font-size: 90px;
+}
+
+nav h4{
+    font-size: 65px;
+    padding: 40px ;
+    font-weight: 500;
+}
+
+nav button{
+    padding: 10px 20px;
+    font-size: 63px;
+    background-color: transparent;
+    border-radius: 9px;
+    font-weight: 600;
+    border: 2px solid #000;
+}
+
+.part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.center{
+    height: 75%;
+    width: 100%;
+    padding: 120px 160px;
+    /* background-color: red; */
+    display: flex;
+}
+
+.center-part1{
+    height: 100%;
+    width: 56%;
+    /* background-color: red; */
+    
+}
+
+
+.center-part1 h1{
+    font-size: 279px;
+    line-height: 1.14;
+    font-family: japan;
+}
+
+.center-part1 p{
+    font-size: 55px;
+    width: 85%;
+    line-height: 1.18;
+    margin-top: 150px;
+    margin-bottom: 155px;
+
+}
+
+.center-part1 button{
+    background-color: black;
+    color: #fff;
+    font-size: 60px;
+    border: none;
+    border-radius: 30px;
+    font-weight: 600;
+    border-bottom: 40px;
+    padding: 45px 65px;
+}
+
+
+.center-part2{
+    height: 100%;
+    width: 56%;
+    position: relative;
+}
+.center-part2 img{
+    height: 96%;
+    position: absolute;
+    right: 0;
+}
+
+.section1bottom{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0px 150px;
+   margin-bottom: 30px;
+
+
+}
+
+.section1bottom img{
+    height: 130px;
+    
+}
+
+.section2{
+    margin-top: 300px;
+}
+.section2 .services{
+    /* background-color: red; */
+    padding: 40px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:  60px;
+}
+
+.section2 h3{
+    background-color: #C7FA73;
+    font-weight: 600;
+    font-size: 100px;
+    border-radius: 15px;
+    padding: 25px 25px;
+}
+
+.services p{
+    font-size: 50px;
+    width: 44%;
+    font-weight: 600;
+}
+
+.container {
+    height: 89%;
+    width: 100%;
+    padding: 10px 170px;
+    display: flex;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    margin-bottom: 00px;
+}
+
+ .elem{
+    /* background-color: red; */
+    flex-shrink: 0;
+    height: 44%;
+    width:48%;
+    border: 6px solid black;
+    border-radius: 92px;
+    box-shadow: 1px 35px 0px black;
+    padding: 80px 100px;
+    display: flex;
+}
+
+.elem-part1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding: 40px;
+    
+}
+.elem-part2{
+    height: 100%;
+    width: 50%;
+}
+.elem-part2 img{
+    height: 100%;
+}
+
+.elem-part1 h2{
+    font-family: japan;
+    font-size: 149px;
+    width: 90%;
+    line-height: 1;
+    background-color: #C7FA73;
+    padding: 011px 15px;
+    border-radius: 10px;
+    font-weight: 500;
+
+}
+
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    font-weight: 600;
+    gap: 10px;
+}
+
+.elem-part1 h4 i{
+    padding: 13px;
+    font-size: 70px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+}
+
+.black{
+    background-color: black;
+  
+}
+
+.black .elem-part1 h2{
+    color:black;
+    width: fit-content;
+    background-color: white;
+}
+.black .elem-part1 h4{
+    color: white;
+}
+.black .elem-part1 h4 i{
+    background-color: white;
+    color: black;
+}
